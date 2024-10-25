@@ -1,0 +1,79 @@
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #eef3f8;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.search-icon {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.search-input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 200px;
+  font-size: 1rem;
+}
+
+/* Right-side navigation in header */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #666;
+  text-decoration: none;
+}
+
+.nav-link i {
+  font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}

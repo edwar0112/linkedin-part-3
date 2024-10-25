@@ -1,0 +1,34 @@
+:root {
+  --color-fondo: #f4f2ee;
+  --color-texto-principal: #5f5f5f;
+  --color-enlace: rgb(51, 51, 51);
+  --color-header: #fff;
+  --color-busqueda-fondo: #edf3f8;
+  --color-hover-enlace: #222;
+  --color-online: #41db51;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto-principal);
+}
+
+a {
+  color: var(--color-enlace);
+}
+
+.header {
+  background-color: var(--color-header);
+}
+
+.search {
+  background-color: var(--color-busqueda-fondo);
+}
+
+.link-navegador:hover {
+  color: var(--color-hover-enlace);
+}
+
+.online::after {
+  background-color: var(--color-online);
+}
